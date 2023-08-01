@@ -11,6 +11,7 @@
 
     var enemy = new Enemy("Орком", Element.Water, 100f, new WorldView(new Dictionary<NameOfWorldView, int>() { { NameOfWorldView.Morale, 1 }, { NameOfWorldView.Ethics, 2 } }));
     bool isWin = false;
+    int userChoice;
 
     while (!isWin)
     {
