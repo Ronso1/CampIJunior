@@ -19,10 +19,10 @@ namespace CampHomework3
 
         public Cards(string name, Element element, int power, WorldView worldView)
         {
+            _name = name;
+            _element = element;
+            _power = power;
             _worldView = worldView;
-            _name = Name;
-            _element = Elements;
-            _power = Power;
         }      
     }
     enum Element

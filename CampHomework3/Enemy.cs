@@ -12,7 +12,7 @@ namespace CampHomework3
         private float _health;
         private Element _element;
         private WorldView _worldView;
-
+        public string Name { get { return _name; } private set { } }
         public WorldView worldView { get { return _worldView; } private set { } }
 
         public Enemy(string name, Element element, float health, WorldView worldView)
